@@ -1,6 +1,7 @@
 body{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 
@@ -95,7 +96,13 @@ button:focus-visible {
   margin-top: 50px;
 }
 .Img{
-  /* width: 70%; */
+  width: 30%;
+}
+.Img img{
+  width: 100%;
+}
+.texto{
+  width: 40%;
 }
 
 .card {
@@ -121,6 +128,37 @@ button:focus-visible {
   background-color:  #6975E8;
 }
 
-.cardsSobre{
+.Sobre{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
   background-color: #F4F2F2;
+}
+.cardsPlanos{
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+}
+
+.Planos{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffffff;
+}
+hr{
+  border-color: #9b9b9b;
+}
+.ContentPlanos{
+  height: 80%;
+}
+.ContentPlanos img{
+  width: 100%;
 }

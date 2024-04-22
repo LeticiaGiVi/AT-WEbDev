@@ -2,22 +2,14 @@ function Planos (props){
 
      
     return(
-
-        <div className="Main">
-           
-           <div className="texto">
-            <h1>{props.titulo}</h1>
-            <p>{props.texto}</p>
-            <button>{props.botao}</button>
-           </div>
-            
-            <div className="Img">
-            <img src={props.img} />
+        <div className="Planos">
+            <h3>{props.titulo}</h3>
+            <hr></hr>
+            <div className="ContentPlanos">
+                <img src={props.Img} alt="" />
             </div>
-
+            <button id={props.cor}>{props.botao}</button>
         </div>
-
-
     );
 
 }

@@ -2,10 +2,6 @@ function Card (props){
 
      
     return(
-
-        // <div className="cardDefinition">
-
-        
         <div className="card" id={props.cor}>
             <div className="titulo">
             <div className="cardImg">
@@ -25,9 +21,6 @@ function Card (props){
             
 
         </div>
-
-        // </div>
-
     );
 
 }
